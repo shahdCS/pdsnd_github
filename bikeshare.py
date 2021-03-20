@@ -6,7 +6,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#the first function 
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -167,7 +167,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-# the main function the code will staet runing from there 
+# the main function the code will staet runing from there
 def main():
     while True:
         city, month, day = get_filters()
