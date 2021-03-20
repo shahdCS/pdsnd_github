@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 
  # {key: value for key, value in variable}
+ #this is a Dictionary
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -167,7 +169,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-# the main function the code will staet runing from there 
+# the main function the code will staet runing from there
 def main():
     while True:
         city, month, day = get_filters()
